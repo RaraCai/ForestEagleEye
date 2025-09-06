@@ -24,16 +24,16 @@
 ## 上手指南(Guide)
 
 #### 项目介绍(Project Introduction)
-本项目设计并实现了“林上鹰眼”森林环境资源监控网站。
+本项目设计并实现了“林上鹰眼”森林环境资源监控网站，为**2025年同济大学数据库课程设计优秀项目**。  
 该系统充分利用现代信息技术手段，通过集成实时数据采集、存储与分析功能，
 极大提升了森林资源监控与管理效率，支持科学研究与政策决策的制定，并通过
-增强公众环保意识，推动社会对森林保护的重视与行动。项目系统采用 Flask 框
-架与 MySQL 数据库构建，前端提供直观且用户友好的网页界面，后端则通过强
+增强公众环保意识，推动社会对森林保护的重视与行动。项目系统采用 **Flask** 框
+架与 **MySQL** 数据库构建，前端提供直观且用户友好的网页界面，后端则通过强
 大的数据处理能力支持全球及本地森林资源和环境数据的实时收集与分析。系统
 通过为不同角色（普通用户、林业从业人员、林业管理人员和林业局监管人员）
 提供定制化功能模块，包括森林资源查询、林业活动规划与审批、互动交流论坛
 以及智能 AI 问答等，确保各类用户能够根据自身需求高效操作。  
-> This project designs and implements the "ForestEagleEye" forest environmental resource monitoring website. The system leverages modern information technology to integrate real-time data collection, storage, and analysis, significantly enhancing the efficiency of forest resource monitoring and management. It supports scientific research and policy-making while raising public environmental awareness and promoting societal engagement in forest protection. Built with the Flask framework and MySQL database, the system offers an intuitive, user-friendly web interface on the front end and robust data processing capabilities on the back end for real-time global and local forest resource and environmental data collection and analysis. Customized functional modules for different roles (general users, forestry practitioners, managers, and regulatory personnel) include forest resource queries, forestry activity planning and approval, interactive forums, and intelligent AI Q&A, ensuring efficient operation according to user needs.
+> This project designs and implements the "ForestEagleEye" forest environmental resource monitoring website, and is regarded as one of the most excellent projects of DataBase Technology Coursework of 2025 Tongji University. The system leverages modern information technology to integrate real-time data collection, storage, and analysis, significantly enhancing the efficiency of forest resource monitoring and management. It supports scientific research and policy-making while raising public environmental awareness and promoting societal engagement in forest protection. Built with the **Flask framework** and **MySQL database**, the system offers an intuitive, user-friendly web interface on the front end and robust data processing capabilities on the back end for real-time global and local forest resource and environmental data collection and analysis. Customized functional modules for different roles (general users, forestry practitioners, managers, and regulatory personnel) include forest resource queries, forestry activity planning and approval, interactive forums, and intelligent AI Q&A, ensuring efficient operation according to user needs.
 
 #### 开发前的配置要求(Pre-development Configuration Requirements)
 
@@ -52,31 +52,31 @@
 3. 使用`pip install`安装pip运行环境及相关依赖  
 4. 在高德开放平台注册您的API，并在`app.py`中替换为您的密钥  
 5. 在`app.py`在将数据库及及其密钥配置为您的数据库  
-6. 分别启动前后端，运行项目  
-```sh
-npm run dev
-python app.py
-```
->
-> 1. Clone the repo  
-> ```sh
-> git clone https://github.com/RaraCai/ForestEagleEye.git
-> ```
-> 2. npm install  
-> ```sh
->npm install
-> ```
-> 3. pip install  
-> ```sh
-> pip install
-> ```
+6. 分别启动前后端，运行项目
+   ```sh
+   npm run dev
+   python app.py
+   ```
+
+> 1. Clone the repo
+>    ```sh
+>    git clone https://github.com/RaraCai/ForestEagleEye.git
+>    ```
+> 2. npm install
+>    ```sh
+>    npm install
+>    ```
+> 3. pip install
+>    ```sh
+>    pip install
+>    ```
 > 4. Get a free API Key at [https://lbs.amap.com/](https://lbs.amap.com/) and replace the  `app.py`  
 > 5. Use your MySQL configuration to replace `app.py`  
-> 6. run the project  
-> ```sh
-> npm run dev
-> python app.py
-> ```
+> 6. run the project
+>    ```sh
+>    npm run dev
+>    python app.py
+>    ```
 
 ## 文件目录说明(Directory Structure Explanation)
 我们采用vue.js的前端框架，尽可能做到前端界面的组件化。在项目的文件结构中，`/assets`是项目运行所必须的文件，`/components`是我们封装好的组件，`/views`是主要界面。  
